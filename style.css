@@ -274,14 +274,17 @@ section .title::after{
 /*  sessão especialidades  */
 .skills .title::after{
     content: "Que faço";
+    
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
+    color: white;
 }
 .skills .skills-content .left .text{
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
+    color: white;
 }
 .skills .skills-content .left p{
     text-align: justify;
