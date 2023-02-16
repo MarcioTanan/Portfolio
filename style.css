@@ -56,3 +56,30 @@ aside {
   font-size: 15px;
   width: 100%;
 }
+
+#barra-menu ul li a:hover{
+  border: solid 1px #c229aa;
+  padding: 8px;
+  border-radius: 15px;
+  background: #7601c4;
+}
+
+.c-icon{
+  margin-top: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  overflow: hidden;
+
+}
+
+.c-icon span {
+  color: #fbf7f7;
+}
+
+.c-icon span:hover {
+  transition: 0.2s;
+  transform: 0.5s;
+  color: #c229aa;
+}
