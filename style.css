@@ -176,6 +176,7 @@ aside {
 
   .main-title button{
     width: 150px;
+    
   }
 
   .numeros{
@@ -183,7 +184,51 @@ aside {
     margin-top: 25%;   
   }
 }  
-
+/*--------------------Sobre-mim------------------------*/
 .image img {
-  width: 500px;
+  width: 400px;
+  height: auto;
+}
+
+.C-sobre{
+  display: flex;
+  justify-content: space-around;
+  padding: 150px 0px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.Sobre-mim h1 {
+  text-align: center;
+  font-size: 55px;
+  font-family: "Inter";
+  font-weight: bold;
+}
+
+.Sobre-mim h4 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: normal;
+  font-weight: bold;
+  font-family: "Inria Sans";
+}
+
+.Sobre-mim p {
+  margin-top: 25px;
+  font-family: "Inria Sans";
+}
+
+.Sobre-mim button {
+  background-color: #ef0453;
+  margin-left: 35%;
+  margin-top: 30px;
+  padding: 10px 50px;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px #858585 4px 4px 4px;
+  transition-duration: .9s;
 }
