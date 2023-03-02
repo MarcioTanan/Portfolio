@@ -162,7 +162,7 @@ aside {
   transform: scale(1.1s);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 414px) {
   .main-title h1 {
     font-size: 40px;
     margin-top: 75%;
@@ -183,3 +183,7 @@ aside {
     margin-top: 25%;   
   }
 }  
+
+.image img {
+  width: 500px;
+}
