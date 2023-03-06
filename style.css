@@ -229,6 +229,12 @@ aside {
   color: #fff;
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 4px 4px 4px #858585 4px 4px 4px;
+  box-shadow: 4px 4px 4px #858585, 4px 4px 4px;
   transition-duration: .9s;
+}
+
+.Sobre-mim button:hover {
+  color: #ef0453;
+  background: transparent;
+  transition: .8s;
 }
